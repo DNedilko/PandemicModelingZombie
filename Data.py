@@ -24,7 +24,7 @@ def data_check(data, max_int):
         input(f"You fucker...from 1 to {max_int}")
 
 def get_data(location_name):
-    location_data = pd.read_csv(f"./Population/Mod_{location_name}-2019.csv")
+    location_data = pd.read_csv(f"./Population/{location_name}-2019.csv")
     return location_data
 
 def get_location_aval(destination = './Population'):
